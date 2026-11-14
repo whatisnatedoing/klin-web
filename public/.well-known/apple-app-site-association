@@ -1,0 +1,4 @@
+{
+  "_note": "PLACEHOLDER. Replace TEAMID and the bundle id with the real values before launch, then remove this key.",
+  "applinks": { "details": [ { "appIDs": ["TEAMID.app.klin.mobile"], "components": [ { "/": "/join/*" } ] } ] }
+}

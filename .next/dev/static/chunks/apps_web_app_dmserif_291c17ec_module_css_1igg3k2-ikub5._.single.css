@@ -1,0 +1,27 @@
+/* [project]/apps/web/app/dmserif_291c17ec.module.css [app-client] (css) */
+@font-face {
+  font-family: dmSerif;
+  src: url("../media/dm_serif_display_latin_400_normal-s.p.1djctenx_0un1.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dmSerif Fallback;
+  src: local(Arial);
+  ascent-override: 102.23%;
+  descent-override: 33.06%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.35%;
+}
+
+.dmserif_291c17ec-module__TAJKSq__className {
+  font-family: dmSerif, dmSerif Fallback;
+}
+
+.dmserif_291c17ec-module__TAJKSq__variable {
+  --font-dm-serif: "dmSerif", "dmSerif Fallback";
+}
+
+/*# sourceMappingURL=apps_web_app_dmserif_291c17ec_module_css_1igg3k2-ikub5._.single.css.map*/

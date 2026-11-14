@@ -1,0 +1,47 @@
+{
+  "$description": "Every phone screen on the website. status: 'preview' = rendered from the real design tokens as a design preview; 'captured' = real device screenshot from the built app. Production builds with NEXT_PUBLIC_LAUNCH_STATE=live or KLIN_REQUIRE_CAPTURED=1 fail while any slot is 'preview'.",
+  "screens": {
+    "home": {
+      "label": "Home",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Home dashboard (Phase 4)"
+    },
+    "welcome": {
+      "label": "Welcome to your space",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Partner pairing (Phase 3)"
+    },
+    "chat": {
+      "label": "Chat",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Private messaging (Phase 4)"
+    },
+    "memories": {
+      "label": "Memories",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Memory vault (Phase 4)"
+    },
+    "calendar": {
+      "label": "Calendar",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Shared calendar (Phase 4)"
+    },
+    "daily": {
+      "label": "Today's question",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Daily connection (Phase 5)"
+    },
+    "letter": {
+      "label": "A letter",
+      "status": "preview",
+      "source": "components/screens/screens.tsx",
+      "feature": "Love letters (Phase 5)"
+    }
+  }
+}

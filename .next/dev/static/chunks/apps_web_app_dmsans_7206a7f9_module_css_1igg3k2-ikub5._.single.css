@@ -1,0 +1,43 @@
+/* [project]/apps/web/app/dmsans_7206a7f9.module.css [app-client] (css) */
+@font-face {
+  font-family: dmSans;
+  src: url("../media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dmSans;
+  src: url("../media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dmSans;
+  src: url("../media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dmSans Fallback;
+  src: local(Arial);
+  ascent-override: 94.36%;
+  descent-override: 29.49%;
+  line-gap-override: 0.0%;
+  size-adjust: 105.13%;
+}
+
+.dmsans_7206a7f9-module__E5aA2G__className {
+  font-family: dmSans, dmSans Fallback;
+}
+
+.dmsans_7206a7f9-module__E5aA2G__variable {
+  --font-dm-sans: "dmSans", "dmSans Fallback";
+}
+
+/*# sourceMappingURL=apps_web_app_dmsans_7206a7f9_module_css_1igg3k2-ikub5._.single.css.map*/

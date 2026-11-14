@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/waitlist/route": "/api/waitlist",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/features/page": "/features",
+  "/icon.svg/route": "/icon.svg",
+  "/join/[code]/page": "/join/[code]",
+  "/opengraph-image/route": "/opengraph-image",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/support/page": "/support",
+  "/terms/page": "/terms"
+}
