@@ -128,79 +128,36 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$components$2f
 ;
 ;
 /**
- * A handful of small moments from a shared space, laid out like the cells of the logo: chamfered blocks that
- * touch at their corners. Design preview content, like the phone screens (see content/screens.manifest.json).
+ * Three small moments from a shared space, laid out like the cells of the logo: chamfered blocks that touch at
+ * their corners. Design preview content, like the phone screens (see content/screens.manifest.json).
+ * It reads as one beat: a question, your partner answering, a photo you both kept.
  */ const ink = 'text-[color:var(--rose-on-fill)]'; // ink on any accent fill: 10:1 or better
-function Bars({ n = 22 }) {
-    const h = [
-        30,
-        55,
-        40,
-        75,
-        50,
-        90,
-        60,
-        35,
-        80,
-        55,
-        25,
-        65,
-        85,
-        45,
-        70,
-        30,
-        60,
-        40,
-        75,
-        50,
-        35,
-        55
-    ];
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-        "aria-hidden": "true",
-        className: "flex h-8 items-center gap-[3px]",
-        children: h.slice(0, n).map((v, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "w-[3px] rounded-full bg-current",
-                style: {
-                    height: `${v}%`
-                }
-            }, i, false, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 13,
-                columnNumber: 36
-            }, this))
-    }, void 0, false, {
-        fileName: "[project]/apps/web/components/Mosaic.tsx",
-        lineNumber: 12,
-        columnNumber: 5
-    }, this);
-}
 function Mosaic() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         "aria-hidden": "true",
-        className: "mosaic grid grid-flow-dense auto-rows-[7.75rem] grid-cols-2 md:auto-rows-[8rem] md:grid-cols-4 lg:auto-rows-[8.4rem]",
+        className: "mosaic grid auto-rows-[7.5rem] grid-cols-2 md:auto-rows-[8rem] lg:auto-rows-[8.4rem]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     '--i': 0,
                     '--c': '44px'
                 },
-                className: `cell col-span-2 row-span-2 flex flex-col justify-between bg-rose-fill p-5 md:p-6 ${ink}`,
+                className: `cell col-span-2 row-span-2 flex flex-col justify-between bg-rose-fill p-5 md:col-span-1 md:row-span-3 md:p-6 ${ink}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-[0.8125rem] font-medium opacity-80",
                         children: "Today’s question"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 23,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-serif text-[1.55rem] leading-[1.15] md:text-[1.9rem] lg:text-[1.7rem] xl:text-[1.9rem]",
+                        className: "font-serif text-[1.6rem] leading-[1.15] md:text-[1.9rem] lg:text-[1.7rem] xl:text-[1.9rem]",
                         children: "What is something small that made you smile this week?"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 24,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -208,27 +165,27 @@ function Mosaic() {
                         children: "Answer first. Then see Sam’s."
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 25,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 22,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     '--i': 2
                 },
-                className: `cell flex flex-col justify-between bg-sage-fill p-4 ${ink}`,
+                className: `cell flex flex-col justify-between bg-sage-fill p-4 md:col-start-2 md:row-start-3 ${ink}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "grid h-8 w-8 place-items-center rounded-full bg-[var(--bg-inverse)] text-[0.8125rem] font-bold text-[var(--text-inverse)]",
                         children: "S"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -236,20 +193,20 @@ function Mosaic() {
                         children: "Sam has answered"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 28,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     '--i': 3
                 },
-                className: "cell-alt relative col-span-1 row-span-2 overflow-hidden bg-terracotta-fill",
+                className: "cell-alt relative overflow-hidden bg-terracotta-fill md:col-start-2 md:row-span-2 md:row-start-1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0",
@@ -258,45 +215,17 @@ function Mosaic() {
                             tone: "terracotta"
                         }, void 0, false, {
                             fileName: "[project]/apps/web/components/Mosaic.tsx",
-                            lineNumber: 34,
+                            lineNumber: 39,
                             columnNumber: 43
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: `absolute inset-x-0 bottom-0 bg-terracotta-fill px-4 pb-4 pt-8 font-serif text-[1.0625rem] leading-tight ${ink}`,
-                        children: "Window seat, 18:12"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 33,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 4
-                },
-                className: "cell flex flex-col justify-between bg-bg-inverse p-4 text-text-inverse",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[0.8125rem] font-medium opacity-80",
-                        children: "Sat, 7:30 pm"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
                         lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-serif text-[1.125rem] leading-tight",
-                        children: "Dinner at Nkoyo’s"
+                        className: `absolute inset-x-0 bottom-0 bg-terracotta-fill px-4 pb-4 pt-6 font-serif text-[1.0625rem] leading-tight ${ink}`,
+                        children: "Window seat, 18:12"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/components/Mosaic.tsx",
                         lineNumber: 40,
@@ -305,159 +234,13 @@ function Mosaic() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 38,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 5
-                },
-                className: "cell-alt flex flex-col justify-between bg-bg-sunken p-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-serif text-[2.75rem] leading-none",
-                        children: "12"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 44,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[0.8125rem] font-medium leading-tight text-text-secondary",
-                        children: "days to the Jos trip"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 43,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 6
-                },
-                className: "cell col-span-2 flex flex-col justify-center gap-2 bg-terracotta-subtle p-4 md:p-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "w-fit rounded-md bg-bg-raised px-3 py-1.5 text-[0.9375rem]",
-                        children: "Did you see the sunset?"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 49,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "ml-auto w-fit rounded-md bg-bg-inverse px-3 py-1.5 text-[0.9375rem] text-text-inverse",
-                        children: "From the bus. Window seat."
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 50,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 48,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 7
-                },
-                className: "cell-alt flex flex-col justify-between bg-rose-subtle p-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Bars, {
-                        n: 16
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[0.8125rem] font-medium text-text-secondary",
-                        children: "Voice note 0:14"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 53,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 8
-                },
-                className: "cell hidden flex-col justify-between bg-sage-subtle p-5 md:col-span-2 md:flex",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[0.8125rem] font-medium text-text-secondary",
-                        children: "Diary · only you can read this"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 59,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-serif text-[1.2rem] leading-snug",
-                        children: "Slept badly, ate well, loved the rain."
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 60,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 58,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    '--i': 9
-                },
-                className: "cell-alt relative hidden overflow-hidden bg-sage-fill md:col-span-2 md:block",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$components$2f$screens$2f$kit$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Photo"], {
-                            scene: "plate",
-                            tone: "sage"
-                        }, void 0, false, {
-                            fileName: "[project]/apps/web/components/Mosaic.tsx",
-                            lineNumber: 64,
-                            columnNumber: 43
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 64,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: `absolute inset-x-0 bottom-0 bg-sage-fill px-5 pb-4 pt-6 font-serif text-[1.0625rem] leading-tight ${ink}`,
-                        children: "Sunday lunch, 14:05"
-                    }, void 0, false, {
-                        fileName: "[project]/apps/web/components/Mosaic.tsx",
-                        lineNumber: 65,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/web/components/Mosaic.tsx",
-                lineNumber: 63,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/web/components/Mosaic.tsx",
-        lineNumber: 20,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -3505,7 +3288,7 @@ __turbopack_context__.s([
 ]);
 const hero = {
     headline: 'Love, in all the little things.',
-    support: 'Klin brings your relationship closer with a private space to talk, share memories, make plans and keep the moments that matter.',
+    support: 'A private space for two, to talk, keep your memories and plan things together.',
     secondary: {
         label: 'Explore Klin',
         href: '#little-world'

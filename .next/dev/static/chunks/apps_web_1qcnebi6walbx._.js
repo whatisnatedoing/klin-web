@@ -527,7 +527,7 @@ __turbopack_context__.s([
 ]);
 const hero = {
     headline: 'Love, in all the little things.',
-    support: 'Klin brings your relationship closer with a private space to talk, share memories, make plans and keep the moments that matter.',
+    support: 'A private space for two, to talk, keep your memories and plan things together.',
     secondary: {
         label: 'Explore Klin',
         href: '#little-world'
