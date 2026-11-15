@@ -1,16 +1,18 @@
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// The Tailwind preset is generated into packages/config (one token source for web and mobile), which sits outside
-// apps/web. Turbopack only compiles files under its root, and it picks that root from the nearest lockfile or git
-// repository, which can end up being apps/web itself. Pin it to the monorepo root so the build behaves the same
-// wherever the folder is checked out.
-const monorepoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+// Turbopack only compiles files under its root, and that root has to contain node_modules.
+//  * Inside the monorepo, pnpm keeps dependencies in the repo's root node_modules, so the root is the repo.
+//  * As a repository of its own (for example a Vercel project that holds only the website), the root is this folder.
+// The design tokens live in ./styles either way, so the app never reads files outside its own folder.
+const appRoot = path.dirname(fileURLToPath(import.meta.url));
+const repoRoot = path.resolve(appRoot, '../..');
+const root = existsSync(path.join(repoRoot, 'pnpm-workspace.yaml')) ? repoRoot : appRoot;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: { root: monorepoRoot },
-  outputFileTracingRoot: monorepoRoot,
+  turbopack: { root },
   reactStrictMode: true,
   poweredByHeader: false,
   images: { formats: ['image/avif', 'image/webp'] },

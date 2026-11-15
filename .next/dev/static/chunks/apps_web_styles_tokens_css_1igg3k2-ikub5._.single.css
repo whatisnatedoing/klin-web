@@ -1,0 +1,175 @@
+/* [project]/apps/web/styles/tokens.css [app-client] (css) */
+:root {
+  --bg-canvas: #f6ede7;
+  --bg-sunken: #efe3da;
+  --bg-raised: #fbf7f3;
+  --bg-inverse: #17151c;
+  --bg-elevated: #fbf7f3;
+  --text-primary: #17151c;
+  --text-secondary: #5a545e;
+  --text-tertiary: #6b646c;
+  --text-inverse: #f6ede7;
+  --text-disabled: #8f8789;
+  --border-subtle: #e4d7ce;
+  --border-strong: #8f8289;
+  --border-focus: #17151c;
+  --rose-fill: #f4b8c5;
+  --rose-on-fill: #17151c;
+  --rose-text: #9b3a52;
+  --rose-subtle: #fbe3e8;
+  --terracotta-fill: #e9a77e;
+  --terracotta-on-fill: #17151c;
+  --terracotta-text: #8f4720;
+  --terracotta-subtle: #f8e1d2;
+  --sage-fill: #8d9b85;
+  --sage-on-fill: #17151c;
+  --sage-text: #4a5b43;
+  --sage-subtle: #e3e8de;
+  --action-primary-bg: #17151c;
+  --action-primary-text: #f6ede7;
+  --action-primary-pressed: #2b2832;
+  --action-secondary-bg: transparent;
+  --action-secondary-text: #17151c;
+  --action-secondary-border: #8f8289;
+  --action-secondary-pressed: #efe3da;
+  --action-disabled-bg: #e8ddd5;
+  --action-disabled-text: #8f8789;
+  --status-success-text: #3f6b3a;
+  --status-success-bg: #e3e8de;
+  --status-warning-text: #7f5210;
+  --status-warning-bg: #f8e8c8;
+  --status-error-text: #a8322b;
+  --status-error-bg: #f8dad6;
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-avatar: 9999px;
+  --font-ui: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-editorial: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --shadow-sheet: 0 -1px 0 #17151c0f, 0 -8px 24px #17151c14;
+  --motion-instant: .1s;
+  --motion-quick: .16s;
+  --motion-base: .24s;
+  --motion-slow: .4s;
+  --ease-standard: cubic-bezier(.2,0,0,1);
+  --ease-decelerate: cubic-bezier(0,0,0,1);
+  --ease-accelerate: cubic-bezier(.3,0,1,1);
+  --lightningcss-light: initial;
+  --lightningcss-dark: ;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg-canvas: #17151c;
+    --bg-sunken: #110f15;
+    --bg-raised: #221f28;
+    --bg-elevated: #2b2832;
+    --bg-inverse: #f6ede7;
+    --text-primary: #f6ede7;
+    --text-secondary: #bdb4b8;
+    --text-tertiary: #9a9199;
+    --text-inverse: #17151c;
+    --text-disabled: #6b6572;
+    --border-subtle: #2b2832;
+    --border-strong: #6b6572;
+    --border-focus: #f4b8c5;
+    --rose-fill: #f4b8c5;
+    --rose-on-fill: #17151c;
+    --rose-text: #f4b8c5;
+    --rose-subtle: #3a2530;
+    --terracotta-fill: #e9a77e;
+    --terracotta-on-fill: #17151c;
+    --terracotta-text: #e9a77e;
+    --terracotta-subtle: #3a2a22;
+    --sage-fill: #8d9b85;
+    --sage-on-fill: #17151c;
+    --sage-text: #a9b8a0;
+    --sage-subtle: #262d24;
+    --action-primary-bg: #f6ede7;
+    --action-primary-text: #17151c;
+    --action-primary-pressed: #e4d7ce;
+    --action-secondary-bg: transparent;
+    --action-secondary-text: #f6ede7;
+    --action-secondary-border: #6b6572;
+    --action-secondary-pressed: #2b2832;
+    --action-disabled-bg: #2b2832;
+    --action-disabled-text: #6b6572;
+    --status-success-text: #a9c9a0;
+    --status-success-bg: #262d24;
+    --status-warning-text: #e6b65c;
+    --status-warning-bg: #3a2f18;
+    --status-error-text: #f0928a;
+    --status-error-bg: #3d211f;
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg-canvas: #17151c;
+  --bg-sunken: #110f15;
+  --bg-raised: #221f28;
+  --bg-elevated: #2b2832;
+  --bg-inverse: #f6ede7;
+  --text-primary: #f6ede7;
+  --text-secondary: #bdb4b8;
+  --text-tertiary: #9a9199;
+  --text-inverse: #17151c;
+  --text-disabled: #6b6572;
+  --border-subtle: #2b2832;
+  --border-strong: #6b6572;
+  --border-focus: #f4b8c5;
+  --rose-fill: #f4b8c5;
+  --rose-on-fill: #17151c;
+  --rose-text: #f4b8c5;
+  --rose-subtle: #3a2530;
+  --terracotta-fill: #e9a77e;
+  --terracotta-on-fill: #17151c;
+  --terracotta-text: #e9a77e;
+  --terracotta-subtle: #3a2a22;
+  --sage-fill: #8d9b85;
+  --sage-on-fill: #17151c;
+  --sage-text: #a9b8a0;
+  --sage-subtle: #262d24;
+  --action-primary-bg: #f6ede7;
+  --action-primary-text: #17151c;
+  --action-primary-pressed: #e4d7ce;
+  --action-secondary-bg: transparent;
+  --action-secondary-text: #f6ede7;
+  --action-secondary-border: #6b6572;
+  --action-secondary-pressed: #2b2832;
+  --action-disabled-bg: #2b2832;
+  --action-disabled-text: #6b6572;
+  --status-success-text: #a9c9a0;
+  --status-success-bg: #262d24;
+  --status-warning-text: #e6b65c;
+  --status-warning-bg: #3a2f18;
+  --status-error-text: #f0928a;
+  --status-error-bg: #3d211f;
+  --lightningcss-light: ;
+  --lightningcss-dark: initial;
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-quick: 0s;
+    --motion-base: 0s;
+    --motion-slow: 0s;
+  }
+}
+
+/*# sourceMappingURL=apps_web_styles_tokens_css_1igg3k2-ikub5._.single.css.map*/

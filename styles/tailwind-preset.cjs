@@ -1,0 +1,61 @@
+// GENERATED FILE. Do not edit. Source: packages/config/src/tokens.json. Run: node packages/config/scripts/generate-tokens.mjs
+// Colours resolve to CSS variables, so light/dark theming needs no dark: variants.
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  theme: {
+    colors: { transparent: 'transparent', current: 'currentColor', ...{
+      "bg-canvas": "var(--bg-canvas)",
+      "bg-sunken": "var(--bg-sunken)",
+      "bg-raised": "var(--bg-raised)",
+      "bg-inverse": "var(--bg-inverse)",
+      "bg-elevated": "var(--bg-elevated)",
+      "text-primary": "var(--text-primary)",
+      "text-secondary": "var(--text-secondary)",
+      "text-tertiary": "var(--text-tertiary)",
+      "text-inverse": "var(--text-inverse)",
+      "text-disabled": "var(--text-disabled)",
+      "border-subtle": "var(--border-subtle)",
+      "border-strong": "var(--border-strong)",
+      "border-focus": "var(--border-focus)",
+      "rose-fill": "var(--rose-fill)",
+      "rose-on-fill": "var(--rose-on-fill)",
+      "rose-text": "var(--rose-text)",
+      "rose-subtle": "var(--rose-subtle)",
+      "terracotta-fill": "var(--terracotta-fill)",
+      "terracotta-on-fill": "var(--terracotta-on-fill)",
+      "terracotta-text": "var(--terracotta-text)",
+      "terracotta-subtle": "var(--terracotta-subtle)",
+      "sage-fill": "var(--sage-fill)",
+      "sage-on-fill": "var(--sage-on-fill)",
+      "sage-text": "var(--sage-text)",
+      "sage-subtle": "var(--sage-subtle)",
+      "action-primary-bg": "var(--action-primary-bg)",
+      "action-primary-text": "var(--action-primary-text)",
+      "action-primary-pressed": "var(--action-primary-pressed)",
+      "action-secondary-bg": "var(--action-secondary-bg)",
+      "action-secondary-text": "var(--action-secondary-text)",
+      "action-secondary-border": "var(--action-secondary-border)",
+      "action-secondary-pressed": "var(--action-secondary-pressed)",
+      "action-disabled-bg": "var(--action-disabled-bg)",
+      "action-disabled-text": "var(--action-disabled-text)",
+      "status-success-text": "var(--status-success-text)",
+      "status-success-bg": "var(--status-success-bg)",
+      "status-warning-text": "var(--status-warning-text)",
+      "status-warning-bg": "var(--status-warning-bg)",
+      "status-error-text": "var(--status-error-text)",
+      "status-error-bg": "var(--status-error-bg)"
+    } },
+    fontFamily: {
+      sans: ['var(--font-ui)'],
+      serif: ['var(--font-editorial)'],
+    },
+    // Spacing: Tailwind's default scale is already a 4px grid, so it is kept as is. Token spacing is exposed as CSS variables (--space-*).
+    borderRadius: { none: '0', sm: 'var(--radius-sm)', md: 'var(--radius-md)', lg: 'var(--radius-lg)', full: '9999px' },
+    screens: {"sm":"640px","md":"768px","lg":"1024px","xl":"1280px"},
+    extend: {
+      boxShadow: { sheet: 'var(--shadow-sheet)' },
+      transitionDuration: { quick: 'var(--motion-quick)', base: 'var(--motion-base)', slow: 'var(--motion-slow)' },
+      transitionTimingFunction: { standard: 'var(--ease-standard)', decelerate: 'var(--ease-decelerate)', accelerate: 'var(--ease-accelerate)' },
+    },
+  },
+};

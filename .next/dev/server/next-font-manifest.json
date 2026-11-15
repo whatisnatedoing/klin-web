@@ -1,30 +1,6 @@
 {
   "app": {
-    "[project]/apps/web/app/about/page": [
-      "static/media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2",
-      "static/media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2",
-      "static/media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2",
-      "static/media/dm_serif_display_latin_400_normal-s.p.1djctenx_0un1.woff2"
-    ],
-    "[project]/apps/web/app/features/page": [
-      "static/media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2",
-      "static/media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2",
-      "static/media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2",
-      "static/media/dm_serif_display_latin_400_normal-s.p.1djctenx_0un1.woff2"
-    ],
     "[project]/apps/web/app/page": [
-      "static/media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2",
-      "static/media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2",
-      "static/media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2",
-      "static/media/dm_serif_display_latin_400_normal-s.p.1djctenx_0un1.woff2"
-    ],
-    "[project]/apps/web/app/privacy/page": [
-      "static/media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2",
-      "static/media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2",
-      "static/media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2",
-      "static/media/dm_serif_display_latin_400_normal-s.p.1djctenx_0un1.woff2"
-    ],
-    "[project]/apps/web/app/support/page": [
       "static/media/dm_sans_latin_400_normal-s.p.0471snlmja818.woff2",
       "static/media/dm_sans_latin_500_normal-s.p.0brn-8r9pdr2e.woff2",
       "static/media/dm_sans_latin_700_normal-s.p.1a6kzvi7en7g-.woff2",
